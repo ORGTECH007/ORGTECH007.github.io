@@ -1,0 +1,240 @@
+<!DOCTYPE html><script type="text/javascript">
+        !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);
+</script>
+
+
+
+<html lang="zh_CN" bigrender="fe:widget/js/lib/bigRender.js">
+<head><noscript><meta http-equiv="refresh" content="0; URL='/moe/?__noscript__-=1'" /></noscript>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="referrer" content="always">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>MoeMoe导航</title>
+
+
+
+
+
+<link rel="shortcut icon" href="//www.hack520.com/favicon.ico" />
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/fe/pkg/aio-eef856ab5.1fd5261cd.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/css/index/index.b821b1f.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/header/header.8685018.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/bg/bg.d1b910b.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/banner/banner.83011d8.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/search/search.206bc9b.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/website/website.fd55fb8.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/tab/tab.e1a69a3.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/overview/overview.a7edd31.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/roller/roller.68f9b30.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/xinfanlist/xinfan-list.6d9b7b8.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/anime/anime.056ec6f.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/moduletitle/module-title.f025c66.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/hotpic/hotpic.3fa67cb.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/entertainment/entertainment.780a062.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/jingcaizhuanti/jingcaizhuanti.478d36a.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/music/music.4f48d96.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/comic/comic.b673dbf.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/site/site.11882c7.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/comment/comment.cb16198.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/news/news.e26a096.css" /><link rel="stylesheet" type="text/css" href="https://dgss1.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/pic/pic.75954f3.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/sidernav/sider-nav.12cfeff.css" /><link rel="stylesheet" type="text/css" href="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/moe/widget/index/mascot/mascot.983cfb5.css" /><link rel="stylesheet" type="text/css" href="https://dgss2.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/fe/pkg/aio-8155b5719.eee8336bf.css" /></head><body background="https://api.ixiaowai.cn/api/api.php" 
+style=" background-repeat:no-repeat ;
+background-size:100% 100%; 
+background-attachment: fixed;
+background-size:cover;" >
+
+
+
+
+
+
+<div class="bg2">
+<span class="icon-clip"></span>
+<span class="icon-dot"></span>
+</div>
+
+
+
+<div class="banner-wrap" monkey="moe-banner">
+
+<div class="search-wrapper">
+
+
+
+<div class="section wd-search clearfix" role="search">
+<p class="logo">
+<a title="百度首页" class="img web" href="//www.baidu.com/?tn=comhao123" target="_blank" data-hook="search-logo"></a>
+<b class="pointer"></b>
+</p>
+<form class="main-form onhover" action="//www.baidu.com/s" method="GET" target="_blank" data-hook="search-form">
+<ul class="services" data-hook="services">
+<li class="item active" key="web">
+<label>萌萌导航</label>
+<i class="pt"></i>
+</li>
+<iframe height="86" width="330" src="https://music.163.com/outchain/player?type=0&id=5042240548&auto=0&height=32" frameborder=0 allowfullscreen></iframe>
+</ul>
+<div class="box">
+<input name="wd" id="search-input" type="search" placeholder="今天又是摸鱼的一天嗯！！" autocomplete="on" data-hook="search-input">
+<button class="search-button" type="submit" data-hook="search-submit">Biu一下</button>
+<div class="search-query" data-hook="search-query"><input name="ie" type="hidden" value="utf-8"><input name="tn" type="hidden" value="comhao123"></div>
+<div class="search-sug" style="display: block;" data-hook="search-sug"></div>
+</div>
+
+</form>
+
+</div></div>
+</div>
+
+
+<div class="website-wrap" monkey="moe-website">
+<ul class="preset-list" monkey="preset">
+<li>
+<a href="http://www.acfun.cn/" target="_blank">
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591118911293&di=8a8f618a8339e4f6a622a79b91374f68&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D9f6f031599cad1c8d0bbfc2f4f3e67c4%2F5304ff1fbe096b6359054d6a00338744ebf8acaa.jpg" alt="AcFun" class="pic">
+<span class="title">AcFun</span>
+</a>
+</li>
+<li>
+<a href="http://www.bilibili.com/" target="_blank">
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591118859552&di=558d9627657902ab5e631fcf232936c0&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fbaike%2Fs%253D600%253Bq%253D50%2Fsign%3Df9be8bf1319b033b2888ffda25f547ee%2F7c1ed21b0ef41bd580fa7e0154da81cb38db3d9d.jpg" alt="哔哩哔哩" class="pic">
+<span class="title">哔哩哔哩</span>
+</a>
+</li>
+<li>
+<a href="http://www.missevan.com" target="_blank">
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591119298742&di=ff88bd5e37d42f7751ac84a5a4b7a919&imgtype=0&src=http%3A%2F%2Fi1.17173cdn.com%2F9ih5jd%2FYWxqaGBf%2Fforum%2Fimages%2F2013%2F04%2F03%2F153435o8zu3tytapuhgee1.gif" alt="M站" class="pic">
+<span class="title">M站</span>
+</a>
+</li>
+<li>
+<a href="http://ac.qq.com" target="_blank">
+<img src="https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/img/moe/1103logo5.jpg" alt="腾讯动漫" class="pic">
+<span class="title">腾讯动漫</span>
+</a>
+</li>
+<li>
+<a href="http://manhua.dmzj.com/" target="_blank">
+<img src="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/moe/0703tb2.png" alt="动漫之家" class="pic">
+<span class="title">动漫之家</span>
+</a>
+</li>
+<li>
+<a href="https://www.2dway.moe/" target="_blank">
+<img src="https://www.2dway.moe/favicon.ico" alt="hao漫画" class="pic">
+<span class="title">PinnPinn</span>
+</a>
+</li>
+<li>
+<a href="https://manhua.163.com" target="_blank">
+<img src="https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/img/moe/1103logo2.jpg" alt="网易漫画" class="pic">
+<span class="title">网易漫画</span>
+</a>
+</li>
+<li>
+<a href="http://www.buka.cn" target="_blank">
+<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1929276516,1110430613&fm=26&gp=0.jpg" alt="布卡漫画" class="pic">
+<span class="title">布卡漫画</span>
+</a>
+</li>
+<li>
+<a href="http://bcy.net/" target="_blank">
+<img src="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/moe/bcy-logooo.jpg" alt="半次元" class="pic">
+<span class="title">半次元</span>
+</a>
+</li>
+<li>
+<a href="https://y.qq.com/" target="_blank">
+<img src="https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/img/moe/1106goli1.PNG" alt="QQ音乐" class="pic">
+<span class="title">QQ音乐</span>
+</a>
+</li>
+<li>
+<a href="http://orgtech007.github.io/pic/" target="_blank">
+<img src="http://7.pic.9ht.com/thumb/up/2016-9/14732143306464979_600_566.gif" alt="斗鱼TV" class="pic">
+<span class="title">每日Moe图</span>
+</a>
+</li>
+<li>
+<a href="https://www.dilidili66.com/" target="_blank">
+<img src="https://www.dilidili66.com/favicon.ico" alt="dili" class="pic">
+<span class="title">嘀哩嘀哩</span>
+</a>
+</li>
+<li>
+<a href="http://5sing.kugou.com/index.html" target="_blank">
+<img src="https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/moe/0629wz3.png" alt="5sing" class="pic">
+<span class="title">5sing</span>
+</a>
+</li>
+</ul>
+
+
+<div class="custom-wrap">
+
+<ul class="custom-list" data-hook="custom-list" monkey="custom">
+
+
+
+<li>
+<a href="http://orgtech007.github.io/" target="_blank">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=" alt="fq" class="pic">
+<span class="title">ORGの妙妙屋</span>
+</a>
+</li>
+<li>
+<a href="http://tieba.baidu.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/2556.png" alt="百度贴吧" class="pic">
+<span class="title">百度贴吧</span>
+</a>
+</li>
+<li>
+<a href="http://weibo.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/54.png" alt="微博" class="pic">
+<span class="title">微博</span>
+</a>
+</li>
+<li>
+<a href="http://www.taobao.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/10062.png" alt="淘宝" class="pic">
+<span class="title">淘宝</span>
+</a>
+</li>
+<li>
+<a href="https://www.jd.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/95475.png" alt="京东" class="pic">
+<span class="title">京东</span>
+</a>
+</li>
+<li>
+<a href="https://wx.qq.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/14.417.png" alt="微信网页版" class="pic">
+<span class="title">微信网页版</span>
+</a>
+</li>
+<li>
+<a href="http://www.iqiyi.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/1821.png" alt="爱奇艺" class="pic">
+<span class="title">爱奇艺</span>
+</a>
+</li>
+<li>
+<a href="http://www.gamersky.com/" target="_blank">
+<img src="https://dgss0.baidu.com/70cFvXSg2QdV5wzgoY3K/urlicon/8442.png" alt="游民星空" class="pic">
+<span class="title">游民星空</span>
+</a>
+</li>
+<li>
+<a href="https://orgtech007.github.io/MoeMoe/" target="_blank">
+<img src="http://www.hack520.com/favicon.ico" alt="MOEMOE" class="pic">
+<span class="title">MoeMoe海外</span>
+</a>
+</li>
+<li>
+
+</li>
+</ul>
+</div>
+
+
+<iframe scrolling="no"  frameborder="0" width="400" height="0" allowtransparency="true"></iframe>
+
+<iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tg&skin=durian" frameborder="0" width="590" height="60" allowtransparency="true"></iframe>
+
+</div>
+</div>
+</div>
+
+
+
