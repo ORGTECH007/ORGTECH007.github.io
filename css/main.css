@@ -1244,7 +1244,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #66ffe7;
+  background: #ecffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1552,7 +1552,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 body {
-  background: url("/images/bakg.jpg");
+  background: url("https://api.ixiaowai.cn/api/api.php");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
